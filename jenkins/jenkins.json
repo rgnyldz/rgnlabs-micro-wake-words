@@ -1,0 +1,13 @@
+{
+  "type": "micro",
+  "wake_word": "Jenkins",
+  "author": "Shane",
+  "website": "https://cssnr.com/",
+  "model": "jenkins.tflite",
+  "version": 2,
+  "trained_languages": ["en"],
+  "micro": {
+    "probability_cutoff": 0.5,
+    "sliding_window_size": 10
+  }
+}
