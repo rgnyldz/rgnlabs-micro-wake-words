@@ -2,7 +2,7 @@
   "type": "micro",
   "wake_word": "artemis",
   "author": "Troy M",
-  "model": "./artemis.tflite",
+  "model": "artemis.tflite",
   "version": 1,
   "micro": {
     "probability_cutoff": 0.5,
